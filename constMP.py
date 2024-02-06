@@ -21,8 +21,9 @@ SERVER_PORT = 5678
 NUM_OPS = 2
 
 # List of operations
-ops = ['deposit', 'interest']
+ops = ['deposit', 'interest', 'withdraw']
 
 # Ranges of values
+withdrawRange = [1, 10]
 depositRange = [1, 10]
 interestRange = [1, 2]
